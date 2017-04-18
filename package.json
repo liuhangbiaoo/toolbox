@@ -1,0 +1,27 @@
+{
+  "name": "toolbox",
+  "version": "1.0.0",
+  "description": "基于npm构建的工具箱(toolbox)",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuhangbiaoo/toolbox.git"
+  },
+  "keywords": [
+    "npm",
+    "node"
+  ],
+  "author": "道心",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liuhangbiaoo/toolbox/issues"
+  },
+  "homepage": "https://github.com/liuhangbiaoo/toolbox#readme"
+}
