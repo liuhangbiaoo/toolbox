@@ -8,8 +8,11 @@
     "test": "test"
   },
   "scripts": {
-    "test": "test"
-  },
+    "test": "test",
+    "open":"start http://localhost:3000 ",
+    "start":"cd src && browser-sync start --server --files \"**/*.*\"",
+    "qq":"cd src &&  browser-sync reload --port http://localhost:3000/ --files=\"**/*.*\""
+  }, 
   "repository": {
     "type": "git",
     "url": "git+https://github.com/liuhangbiaoo/toolbox.git"
