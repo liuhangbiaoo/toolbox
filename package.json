@@ -8,11 +8,15 @@
     "test": "test"
   },
   "scripts": {
-    "test": "test",
-    "open":"start http://localhost:3000 ",
-    "start":"cd src && browser-sync start --server --files \"**/*.*\"",
-    "qq":"cd src &&  browser-sync reload --port http://localhost:3000/ --files=\"**/*.*\""
-  }, 
+    "test": "echo 'test tap ' --scripts-prepend-node-path=auto",
+    "open": "start http://localhost:3000 ",
+    "start": "cd src && browser-sync start --server --files \"**/*.*\"",
+    "sync": "cd src &&  browser-sync reload --port http://localhost:3000/ --files=\"**/*.*\"",
+    "build:css": "lessc src/less/test.less  src/css/test.css",
+    "build:cssmin": "lessc  src/less/test.less  src/css/test.css  &&  lessc --compress  src/less/test.less  src/css/test.min.css",
+    "clearAll":"rm -rf ./dist && mkdir dist && rm -rf ./src/css/*",
+    "git:commot":"git pull && git add . && git commit -m \"uploade\" && git push"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/liuhangbiaoo/toolbox.git"
@@ -26,5 +30,6 @@
   "bugs": {
     "url": "https://github.com/liuhangbiaoo/toolbox/issues"
   },
-  "homepage": "https://github.com/liuhangbiaoo/toolbox#readme"
+  "homepage": "https://github.com/liuhangbiaoo/toolbox#readme",
+  "devDependencies": {}
 }
