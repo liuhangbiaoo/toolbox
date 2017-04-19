@@ -1,4 +1,3 @@
 @echo off
-set /p pn=ÇëÊäÈëÏîÄ¿Ãû³Æ:
+set /p pn=è¯·è¾“å…¥é¡¹ç›®åç§°:
 lessc  ../src/less/%pn%.less  ../src/css/%pn%.css
-
