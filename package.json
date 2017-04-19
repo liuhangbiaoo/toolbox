@@ -9,13 +9,15 @@
   },
   "scripts": {
     "test": "echo 'test tap ' --scripts-prepend-node-path=auto",
+    "tt": "tap echo 'xxxxxxxxxxxxxxxx'",
     "open": "start http://localhost:3000 ",
     "start": "cd src && browser-sync start --server --files \"**/*.*\"",
     "sync": "cd src &&  browser-sync reload --port http://localhost:3000/ --files=\"**/*.*\"",
-    "build:css": "lessc src/less/test.less  src/css/test.css",
-    "build:cssmin": "lessc  src/less/test.less  src/css/test.css  &&  lessc --compress  src/less/test.less  src/css/test.min.css",
-    "clearAll":"rm -rf ./dist && mkdir dist && rm -rf ./src/css/*",
-    "git:commot":"git pull && git add . && git commit -m \"uploade\" && git push"
+    "bs": "cd bin && ./less.bat",
+    "build:css": "lessc src/less/index.less  src/css/index.css",
+    "build:cssmin": "lessc  src/less/index.less  src/css/index.css  &&  lessc --compress  src/less/index.less  src/css/index.min.css",
+    "clearAll": "rm -rf ./dist && mkdir dist && rm -rf ./src/css/* && rm -rf ./src/less/*.css",
+    "git:commot": "git pull && git add . && git commit -m \"uploade\" && git push"
   },
   "repository": {
     "type": "git",
@@ -31,5 +33,8 @@
     "url": "https://github.com/liuhangbiaoo/toolbox/issues"
   },
   "homepage": "https://github.com/liuhangbiaoo/toolbox#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "vue": "^2.2.6"
+  },
+  "dependencies": {}
 }
