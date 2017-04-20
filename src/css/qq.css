@@ -1,0 +1,12 @@
+.box1 {
+  color: #fe33ac;
+  border-color: #fdcdea;
+}
+.box1 div {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.box1 .qq {
+  font: 12px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInFxLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGVBQWU7RUFDZixzQkFBc0I7Q0FDdkI7QUFDRDtFQUVFLHVDQUF1QztDQUN4QztBQUNEO0VBQ0UsV0FBVztDQUNaIiwiZmlsZSI6InFxLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5ib3gxIHtcbiAgY29sb3I6ICNmZTMzYWM7XG4gIGJvcmRlci1jb2xvcjogI2ZkY2RlYTtcbn1cbi5ib3gxIGRpdiB7XG4gIC13ZWJraXQtYm94LXNoYWRvdzogMCAwIDVweCByZ2JhKDAsIDAsIDAsIDAuMyk7XG4gIGJveC1zaGFkb3c6IDAgMCA1cHggcmdiYSgwLCAwLCAwLCAwLjMpO1xufVxuLmJveDEgLnFxIHtcbiAgZm9udDogMTJweDtcbn1cbiJdfQ== */

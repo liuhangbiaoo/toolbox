@@ -1,0 +1,18 @@
+/**
+ * [base description]
+ * @type {[type]}
+ */
+.box {
+  color: #fe33ac;
+  border-color: #fdcdea;
+}
+.box a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.box div {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7O0dBR0c7QUFDSDtFQUNFLGVBQWU7RUFDZixzQkFBc0I7Q0FDdkI7QUFDRDtFQUNFLHFCQUFjO0VBQWQscUJBQWM7RUFBZCxjQUFjO0NBQ2Y7QUFDRDtFQUNFLHVDQUF1QztDQUN4QyIsImZpbGUiOiJpbmRleC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKipcbiAqIFtiYXNlIGRlc2NyaXB0aW9uXVxuICogQHR5cGUge1t0eXBlXX1cbiAqL1xuLmJveCB7XG4gIGNvbG9yOiAjZmUzM2FjO1xuICBib3JkZXItY29sb3I6ICNmZGNkZWE7XG59XG4uYm94IGEge1xuICBkaXNwbGF5OiBmbGV4O1xufVxuLmJveCBkaXYge1xuICBib3gtc2hhZG93OiAwIDAgNXB4IHJnYmEoMCwgMCwgMCwgMC4zKTtcbn1cbiJdfQ== */
